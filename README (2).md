@@ -4,6 +4,18 @@ A command-line Python tool that demonstrates a brute-force attack. You type in a
 
 > **Note:** This is an educational tool. It brute-forces a password you enter yourself, on your own machine, to show how the guessing space grows. It does not target accounts, systems, or anyone else's data.
 
+## ⚠️ Disclaimer — Educational Use Only
+
+This project was built for **learning purposes** as part of my journey studying
+Python and cybersecurity fundamentals. It runs entirely **locally** on a password
+the user enters themselves, and it does **not** target, access, or attempt to
+compromise any real account, system, or network.
+
+It is intended to demonstrate core programming concepts (loops, `itertools`,
+input validation, efficiency) and to illustrate *why* password length and
+complexity matter. Please do not use it for anything other than education on
+systems you own.
+
 ## Features
 
 - Brute-forces a password by trying every combination of a 50-character set (lowercase letters, digits, and common symbols)
